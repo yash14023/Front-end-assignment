@@ -1,0 +1,60 @@
+ /* Center the page content */
+ 
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Set the background color to matte black */
+    color: rgb(10, 10, 9); /* Set the text color to wheat white */
+    font-family: Arial, sans-serif;
+  }
+
+  /* Styling for the containers */
+  .container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    float: left;
+  }
+
+  /* Styling for the draggable items */
+  .item {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: move;
+    user-select: none; /* Prevent text selection during dragging */
+  }
+
+  /* Styling for the dragging state of an item */
+  .item.dragging {
+    opacity: 2.3;
+    border: 1px dashed #aaa; /* Add a dashed border to indicate dragging */
+  }
+
+  /* Styling for the success message */
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+
+  /* Styling for the reset button */
+  button {
+    background-color: transparent;
+    color: rgb(109, 85, 41); /* Set the button text color to wheat white */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Make the button curved */
+    cursor: pointer;
+    transition: background-colord; /* Add a smooth transition effect */
+  }
+
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.509); /* Add a transparent background on hover */
+  }
+  p{
+      color: rgb(229, 238, 229);
+    font-weight: bold;
+  }
