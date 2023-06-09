@@ -14,4 +14,4 @@ This is a simple web page that demonstrates the drag and drop functionality usin
 ## Usage
 
 1. Clone the repository or download the source code.
-2. Open the `index.html` file in a web browser.
+2. Open the `main.html` file in a web browser.
